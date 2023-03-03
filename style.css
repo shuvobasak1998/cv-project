@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gainsboro;
+}
+.container{
+    max-width: 1000px;
+    background-color: rgb(248, 9, 9);
+    margin: 0 auto;
+    padding: 20px;
+}
+.header{
+
+}
+.profile-img{
+    width: 100px;
+    height: 120px;
+    border: 3px solid green;
+    border-radius: 50%;
+    float: left;
+}
+.bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(0, 255, 51);
+}
+.contact{
+    float: right;
+    padding: 50px;
+}
+.contact a{
+    text-decoration: none;
+    color: green;
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: yellow;
+
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 4px solid green;
+    width: 100%;
+    margin: 10px auto;
+    border-bottom: none;
+}
+.common-hr{
+    border: 1px solid black;
+    width: 100%;
+    margin: 10px auto;
+    border-bottom: none;
+}
+#personal-information{
+
+}
+.personal-data{
+
+}
+.right-div{
+    width: 70%;
+    float: right;
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.part1{
+    float: left;
+    width: 35%;
+
+}
+.part2{
+    float: right;
+    width: 35%;
+
+
+}
+.footer{
+    background-color: brown;
+    text-align: center;
+    margin: 10px;
+
+}
+.footer a{
+    color: black;
+    text-decoration: none;
+    padding: 10px ;
+}
+.footer a:hover{
+    color: yellow;
+    text-decoration: wavy;
+}
